@@ -1,6 +1,6 @@
 namespace Bowling.Models
 {
-    public class GameResult
+    public class ResponseModel
     {
         public string[] FrameProgressScores { get; set; }
         public bool GameCompleted { get; set; }

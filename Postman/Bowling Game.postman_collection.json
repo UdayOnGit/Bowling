@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "ee09ab21-4dc5-491f-ae97-3c2f50e5b824",
+		"name": "Bowling Game",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post Bowling Request",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"pinsDowned\": [1,1,1,1,9,1,2,8,9,1,10,10]\n}"
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/scores",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"scores"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
