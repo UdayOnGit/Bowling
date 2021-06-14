@@ -21,10 +21,16 @@ namespace Bowling.Services
                 GameCompleted = true,
                 FrameProgressScores = new string[]
                 {
-                    "10",
-                    "20",
-                    "30",
-                    "40"
+                    "9", 
+                    "17",
+                    "26",
+                    "35", 
+                    "44", 
+                    "44", 
+                    "52", 
+                    "61", 
+                    "69", 
+                    "76"
                 }
             };
             return result;
