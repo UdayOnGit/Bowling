@@ -18,7 +18,7 @@ namespace Bowling
         [HttpPost]
         public ActionResult<ResponseModel> GetScores([FromBody] RequestModel requestModel)
         {
-            return _bowlingService.ThrowResult(requestModel);
+            return _bowlingService.GetGameResult(requestModel);
         }
     }
 }

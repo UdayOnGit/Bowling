@@ -26,11 +26,10 @@ namespace BowlingTests.Services
             };
 
             // Act
-            var result = service.ThrowResult(requestModel);
+            var result = service.GetGameResult(requestModel);
 
             // Assert
             result.Should().BeEquivalentTo<ResponseModel>(responseModel);
         }
-
     }
 }

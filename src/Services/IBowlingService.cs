@@ -4,6 +4,6 @@ namespace Bowling.Services
 {
     public interface IBowlingService
     {
-        ResponseModel ThrowResult(RequestModel requestModel);
+        ResponseModel GetGameResult(RequestModel requestModel);
     }
 }

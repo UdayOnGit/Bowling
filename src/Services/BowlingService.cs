@@ -12,7 +12,7 @@ namespace Bowling.Services
             _logger = logger;
         }
 
-        public ResponseModel ThrowResult(RequestModel requestModel)
+        public ResponseModel GetGameResult(RequestModel requestModel)
         {
             _logger.LogInformation($"{string.Join(",", requestModel.PinsDowned)}");
 
